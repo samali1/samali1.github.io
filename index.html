@@ -1,12 +1,34 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="UTF-8">
-        <title>Personal Website</title>
-    </head>
-    <body>
-        
-    </body>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
 
+<title>samali.dev</title>
 
+<h1>Welcome to my website!</h1>
+
+<p>I know it's a bit barren, but it's a WIP. In the meantime, enjoy my favorite joke:</p>
+<p>What do King Henry the VIII and Kermit the Frog share in common?</p>
+
+<p><button onclick="myFunction()">What?</button></p>
+
+<div id="myDIV">Reveal Answer?</div>
+
+<br>
+<p>"This website will be done in no time." - Sameer circa Feb 2020</p>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myDIV");
+  if (x.innerHTML === "Reveal Answer?") {
+    x.innerHTML = "The same middle name!";
+  } else {
+    x.innerHTML = "Reveal Answer?";
+  }
+}
+</script>
+
+</body>
 </html>
