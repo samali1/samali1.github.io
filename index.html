@@ -12,20 +12,18 @@
 <p>I know it's a bit barren, but it's a WIP. In the meantime, enjoy my favorite joke:</p>
 <p>What do King Henry the VIII and Kermit the Frog share in common?</p>
 
-<p><button onclick="myFunction()">What?</button></p>
-
-<div id="myDIV">Reveal Answer?</div>
+<p><button onclick="myFunction()" id="jokeButton">What?</button></p>
 
 <br>
 <p>"This website will be done in no time." - Sameer circa Feb 2020</p>
 
 <script>
 function myFunction() {
-  var x = document.getElementById("myDIV");
-  if (x.innerHTML === "Reveal Answer?") {
+  var x = document.getElementById("jokeButton");
+  if (x.innerHTML === "What?") {
     x.innerHTML = "The same middle name!";
   } else {
-    x.innerHTML = "Reveal Answer?";
+    x.innerHTML = "What?";
   }
 }
 </script>
