@@ -8,10 +8,13 @@
     display: inline-block;
     overflow: hidden;
     max-width: 500px;
-    border-right: .15em solid orange;
     margin: 0 auto;
     white-space: nowrap;
     letter-spacing: .15em;
-    animation: typing 3.5s steps(100, end),
-    blink-caret .75s step-end infinite;
+}
+
+ul.navbar-list {
+    text-align: center;
+    display: block;
+    letter-spacing: .15em;
 }
